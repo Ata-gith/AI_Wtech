@@ -1,4 +1,4 @@
-# %%
+# Code not working as intended, could not convert the csv file to desired format...
 import csv
 from collections import deque
 
@@ -13,11 +13,6 @@ with open('distances.csv', mode='r') as inp:
             break
 print(dict_from_csv)
 
-# %%
-def list_to_adj_list(inp_list):
-    adj_list={}
-    while 1:
-        adj_list.update({inp_list})
     
 
 # %%
