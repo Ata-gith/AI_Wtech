@@ -22,7 +22,7 @@ n = float(len(X)) # Number of elements
 # Performing Gradient Descent 
 for i in range(iteration): 
     Y_pred = theta0 + theta1*X  # The current predicted value of Y
-    D_t1 = (-2/n) * sum(X * (Y - Y_pred))  # D
+    D_t1 = (-2/n) * sum(X * (Y - Y_pred))  # Derivative of cost func. with respect to thetas
     D_t0 = (-2/n) * sum(Y - Y_pred)  
     theta0 = theta0 - alpha * D_t0  # Update thetas
     theta1 = theta1 - alpha * D_t1  
