@@ -1,1 +1,1 @@
-This is a repository created for the homework&project codes of AI training course.
+This is a repository created for the homework&project codes of WtechAI training course.
